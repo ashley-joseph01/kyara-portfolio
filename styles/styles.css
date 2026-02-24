@@ -56,6 +56,7 @@ body {
     /* border: solid 2px red;+ */
 }
 
+
 .nav__ul {
     width: 100%;
     display: flex;
@@ -75,7 +76,17 @@ body {
 
 .nav__li {
     font-size: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+    /* border: solid 5px red; */
 }
+
 
 main {
     display: flex;
@@ -116,11 +127,11 @@ main p {
 
 }
 
-.intro__header img {
+/* .intro__header img {
     background-color: var(--light);
     width: 200px;
     height: 200px;
-}
+} */
 
 .intro__txt {
     display: flex;
@@ -186,3 +197,14 @@ footer p, footer li {
 }
 
 
+/* SPECIFICS */
+
+.photo {
+    width: 500px;
+}
+
+.cls-1 {
+    fill: #fff;
+    fill-rule: evenodd;
+    width: 300px;
+}
