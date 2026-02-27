@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
 :root {
     --dark: #0D0107;
     --purple: #100418; 
@@ -15,6 +25,17 @@
     color: var(--light);
 
     text-decoration: none;
+
+    /* font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 ul {
@@ -66,15 +87,25 @@ body {
     /* padding: 15px; */
     margin-bottom: 30px;
 
+
+
     /* border: solid blue 2px; */
 }
 
-/* h1 {
-    color: var(--navy);
+h1 {
+    /* font-family: "Almendra SC", serif;
+    font-weight: 400;
+    font-style: normal; */
 
-} */
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
 
+}
 
+.bold {
+    font-weight: bold;
+}
 
 /* @ FLEX CLASSES */
 
@@ -138,6 +169,16 @@ body {
     align-items: center;
     text-align: center;
     gap: 5px;
+
+    /* font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    font-style: normal; */
+
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
 
     /* border: solid 5px red; */
 }
@@ -272,13 +313,7 @@ footer p, footer li {
     
 }
 
-.graphic--alt {
-    width: 100%;
-    /* padding: 15px; */
 
-    /* border: solid purple 2px; */
-
-}
 
 
 .subtitle {
@@ -322,4 +357,48 @@ footer p, footer li {
 
 .button p {
     color: var(--mauve);
+}
+
+.flex--gap50 {
+    gap: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: dodgerblue; */
+  padding: 10px;
+  gap: 20px;
+}
+
+.grid__item {
+  /* background-color: #f1f1f1; */
+  border: 1px solid var(--mauve);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  text-align: start;
+}
+
+.grid__item a {
+    text-decoration: underline;
+}
+
+
+
+.thumbnail {
+    width: 350px;
+
+
+
+}
+
+.film__projects {
+    width: 360px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px red;
 }
