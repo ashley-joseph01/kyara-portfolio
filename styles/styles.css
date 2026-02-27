@@ -38,8 +38,63 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
     padding-top: 35px;
+}
+
+/* @ SPECIFICS */
+
+.photo {
+    width: 500px;
+}
+
+.cls-1 {
+    fill: #fff;
+    fill-rule: evenodd;
+    width: 300px;
+}
+
+.h1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+
+    width: 100%;
+    text-align: start;
+    /* padding: 15px; */
+    margin-bottom: 30px;
+
+    /* border: solid blue 2px; */
+}
+
+/* h1 {
+    color: var(--navy);
+
+} */
+
+
+
+/* @ FLEX CLASSES */
+
+.flex--row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    /* border: solid aqua 2px; */
+    /* width: 100%; */
+
+
+}
+
+.flex--col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 /* @ COMPONTENTS */
@@ -91,6 +146,7 @@ body {
 main {
     display: flex;
     justify-content: center;
+    /* width: 100%; */
 
     margin: 50px 0 50px 0;
 
@@ -196,15 +252,74 @@ footer p, footer li {
     gap: 100px;
 }
 
+.projects {
+    width: 50%;
+    gap: 25px;
 
-/* SPECIFICS */
-
-.photo {
-    width: 500px;
+    /* border: solid blue 2px; */
 }
 
-.cls-1 {
-    fill: #fff;
-    fill-rule: evenodd;
-    width: 300px;
+.main--project {
+    /* border: solid 2px var(--light); */
+    padding: 30px;
+}
+
+.graphic {
+    width: 100%;
+    /* padding: 15px; */
+
+    /* border: solid purple 2px; */
+    
+}
+
+.graphic--alt {
+    width: 100%;
+    /* padding: 15px; */
+
+    /* border: solid purple 2px; */
+
+}
+
+
+.subtitle {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+
+    /* border: solid green 2px; */
+}
+
+.main--writing {
+    width: 100%;
+
+    /* border: solid aqua 2px; */
+}
+
+.project__header {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+
+    /* border: teal solid 2px; */
+}
+
+.button {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+
+    border: solid 1px var(--mauve);
+    border-radius: 5px;
+
+    /* border: solid brown 2px; */
+}
+
+.button p {
+    color: var(--mauve);
 }
